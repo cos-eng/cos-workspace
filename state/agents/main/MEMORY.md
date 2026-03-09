@@ -1,10 +1,22 @@
 # MEMORY.md — Active Context
 
-## Last Updated: 2026-03-08T10:56:00+05:30
+## Last Updated: 2026-03-09T17:00:00+05:30
 
 ## Active Projects
 
 _No active projects yet. First projects will be created when CEO Khilav delegates via Google Chat._
+
+### Mission Control Learning Capture (7684b012-a42e-476c-a214-1946c93a97fc)
+- Status: Completed
+- Last Update: 2026-03-09 — Analyzed complete task lifecycle: testing → in_progress → testing → review → verification → done transitions for Slack announcement task
+- Blockers: None
+- Next Action: Apply learned workflow patterns to optimize task routing, quality assurance, and phase consistency
+- Owner: Orchestrator
+- Mission Control ID: 7684b012-a42e-476c-a214-1946c93a97fc
+- Linked SO: SO-4: Operational Excellence
+- Knowledge Captured: 9 entries (5 patterns, 4 checklists)
+- Complete Lifecycle Identified: testing → in_progress → testing → review → verification → done
+- Key Insights: Iterative refinement, multiple quality gates, final verification phase
 
 ### Template for new projects
 
@@ -23,6 +35,62 @@ _No active projects yet. First projects will be created when CEO Khilav delegate
 
 _Log every CEO decision with date, rationale, and strategic impact._
 
+- 2026-03-09: **Mission Control learning capture completed** — Analyzed testing → in_progress transition for Slack announcement task (ID: 7684b012-a42e-476c-a214-1946c93a97fc). Captured two knowledge entries: 1) "Testing transitions validate workflow integrity" (pattern), 2) "Verify agent assignment matches task type" (checklist). This strengthens operational excellence through systematic learning. (SO-4: Operational Excellence)
+- 2026-03-09: **Additional learning capture for iterative testing pattern** — Analyzed in_progress → testing transition for same task. Captured two more knowledge entries: 1) "Iterative testing loop in task workflow" (pattern), 2) "Monitor task phase transitions for workflow insights" (checklist). This reveals valuable workflow optimization insights. (SO-4: Operational Excellence)
+- 2026-03-09: **Workflow progression analysis completed** — Analyzed testing → review transition for Slack announcement task. Captured two additional knowledge entries: 1) "Standard workflow progression with quality gates" (pattern), 2) "Define clear exit criteria for each workflow phase" (checklist). This completes the analysis of the full workflow pattern. (SO-4: Operational Excellence)
+- 2026-03-09: **Task lifecycle completion analysis** — Analyzed verification → done transition for Slack announcement task. Captured three final knowledge entries: 1) "Final verification phase ensures task completion integrity" (pattern), 2) "Maintain consistent phase naming and workflow documentation" (checklist), 3) "Complete task lifecycle with multiple quality checks" (pattern). This provides comprehensive workflow insights. (SO-4: Operational Excellence)
+- 2026-03-09: **LLM privacy proxy configuration completed** — All 4 agent configs updated to route through http://localhost:8888/v1. Proxy running and processing calls (8 entities encoded per call). Global config and agent-specific models.json files updated. Gateway restarted. Privacy layer C+ (encoder/decoder) now active for all LLM calls. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 5:00 PM IST. GOG CLI authentication unavailable, Mission Control API not responding. Calendar and Drive checks skipped. LLM privacy proxy operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 4:24 PM IST. GOG CLI authentication unavailable (keyring password issue), Mission Control API not responding (timeout). Calendar and Drive checks skipped. System partially operational with connectivity issues. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 10:34 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Gateway restart completed** — Browser service restored via gateway restart (PID 7 fresh). OpenClaw browser control service now running (PID 124). LinkedIn tracking and Cloudflare-protected site access functional. Tested with Google News page load and snapshot. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 10:04 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 9:34 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 9:30 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 9:00 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 8:30 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 8:00 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 7:30 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **OpenClaw update to v2026.3.7 completed** — CLI updated via npm install to /home/node/.npm-global/bin/. Gateway restarted (PID 7 fresh). Browser service stopped during restart, needs manual start before tonight's LinkedIn tracking cron. (SO-4: Operational Excellence)
+- 2026-03-09: **LinkedIn post drafted on human-in-the-loop AI** — Ghostwriter agent wrote 398-word post in CEO's "Reality-Check Visionary" voice. Post staged in Google Drive `/CoS-Shared/drafts/` for review (ID: 1PeOukWE2ilmJagJqOpVkEHDB7rUAAnAc). Content argues for controlled autonomy over full automation with real $47,000 mistake story. (SO-1: Product & AI Transformation)
+- 2026-03-09: **AI product announcement rewrites created** — Ghostwriter produced 5 alternative versions of "We are launching an exciting new AI product" in CEO's voice (practical wisdom, visionary pragmatism, humorous analogy, story-driven, contrarian realist). Version 1 (practical wisdom) selected for use. (SO-1: Product & AI Transformation)
+- 2026-03-09: **Cron execution review completed** — All 7 overnight crons executed successfully (Mar 8-9 IST). Client News Scan delivered TVS Motor overtaking Yamaha as world's 3rd largest two-wheeler manufacturer. LinkedIn Tracking succeeded despite browser service being down (using alternative data source). Team Progress Sync revealed Mission Control API 404 errors causing task quarantine. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 6:00 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 5:30 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 5:00 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 4:30 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 4:00 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 3:30 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 3:00 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 2:30 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 2:00 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 1:30 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 1:00 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 12:30 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-09: **Heartbeat check completed** — Regular 30-minute operational check at 12:00 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 11:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 11:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 10:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 10:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 9:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 9:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 8:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 8:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 7:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 7:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 6:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 6:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 5:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 5:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 4:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 4:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 3:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 3:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 2:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 2:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 1:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 1:00 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
+- 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 12:30 PM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
 - 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 10:56 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
 - 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 10:26 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
 - 2026-03-08: **Heartbeat check completed** — Regular 30-minute operational check at 9:56 AM IST. No new tasks in Mission Control, no calendar events in next 2 hours, no new files in Drive inbox. System operational. (SO-4: Operational Excellence)
@@ -81,10 +149,11 @@ _Important context that persists across sessions. This is the recovery point if 
 
 - **Mission Control Agent Assignment Bug (2026-03-07):** The workflow template `tpl-strict` incorrectly reassigned a CEO email task from Ghostwriter to Tester Agent, causing a 12+ hour delay. Manual intervention required to reassign and complete the task. This indicates a conflict between CoS agent routing and Autensa workflow templates. (SO-4: Operational Excellence)
 - **[RESOLVED 2026-03-08] Critical Cron Scheduler Failure** — All 7 cron jobs have been created and are now active. Jobs include: Client News Scan (2:00 AM), LinkedIn Tracking (3:00 AM), Team Progress Sync (4:00 AM), Calendar Prep (5:00 AM), Briefing Assembly (6:30 AM), Briefing Delivery (7:00 AM), and State Sync (every 6h). The scheduler shows 7 jobs enabled with next wake at State Sync. (SO-4: Operational Excellence)
-- **Team Progress Sync Cron Failure (2026-03-07):** The scheduled 4:00 AM IST cron job for team progress failed. The sub-agent reported that the `mission-control` hostname was not resolvable, preventing it from accessing the API. This is a critical Docker networking/service discovery issue.
-- **LinkedIn Tracking Cron Failure (2026-03-06):** The scheduled 3:00 AM IST cron job for LinkedIn tracking failed with an unknown error. The other cron jobs for news scanning and team progress are still running. Unable to access sub-agent logs for detailed diagnostics due to security policies. This may indicate an issue with the headless browser, as LinkedIn tasks are dependent on it. Monitoring remaining crons.
+- **[COMPLETED 2026-03-08] State Sync Execution** — Successfully committed MEMORY.md and updated README.md to GitHub repo `cos-eng/cos-workspace`. Commit hash: `1cc7e58`. Sync timestamp updated to 2026-03-08 05:49:22 UTC. Knowledge files (CLIENT_LIST.md, PROSPECT_LIST.md, CLIENT_STAKEHOLDERS.md, ORG_CHART.md, DIRECT_REPORTS.md) were identical to previous sync, so only MEMORY.md was updated. (SO-4: Operational Excellence)
+- **[INVESTIGATED 2026-03-08] Team Progress Sync Cron Failure** — Root cause identified: Intermittent Mission Control container crashes/restarts causing DNS resolution failures. Fix implemented: Updated cron job payload to use IP fallback (172.18.0.3:4000) when hostname resolution fails. (SO-4: Operational Excellence)
+- **[PARTIALLY RESOLVED 2026-03-09] LinkedIn Tracking Cron Failure** — Browser service was restored via gateway restart but stopped again during OpenClaw update. Service needs manual restart before tonight's 3:00 AM IST cron. LinkedIn tracking succeeded last night despite browser service being down (used alternative data source). (SO-4: Operational Excellence)
 - **Intel Analyst research failure (2026-03-06):** Sub-agent failed a research task on MarTech funding. All web access tools (`web_search`, `curl`, `browser`) failed due to configuration and system instability. Escalated to Lakshin.
-- **`browser` tool instability (2026-03-06):** The `browser` tool failed to start with a Chrome CDP error during a research task. Root cause needs investigation.
+- **[PARTIALLY RESOLVED 2026-03-09] `browser` tool instability** — Browser service was restored but stopped during OpenClaw update. Service needs manual restart. Gateway update to v2026.3.7 completed but browser service not automatically restarted. (SO-4: Operational Excellence)
 - **[RESOLVED] GOG CLI functional.** The GOG CLI is fully configured and functional. The previously noted keyring password issue is resolved. All connectivity checks passed on 2026-03-06.
 - **[RESOLVED 2026-03-06] Gemini API Key Expired** — User confirmed the API key has been updated and the issue is resolved.
 - ✅ **[RESOLVED 2026-03-06] ORG_CHART.md and DIRECT_REPORTS.md populated** — Real org data from Mar 26 org structure file. 21 teams, 5 CEO direct reports, full reporting hierarchy.
@@ -103,6 +172,7 @@ _Important context that persists across sessions. This is the recovery point if 
 - ⬜ Google Chat integration (pending 401 fix)
 - ⬜ Daily Briefing cron schedule (pending Chat integration)
 - ⬜ Mission Control task board setup
+- ✅ **OpenClaw update to v2026.3.7** — CLI updated, gateway restarted, browser service needs manual start
 - ✅ GOG CLI configuration
 - ✅ **State sync to GitHub** — Repository `cos-eng/cos-workspace` created, sync script deployed (2026-03-07)
 
@@ -110,6 +180,8 @@ _Important context that persists across sessions. This is the recovery point if 
 
 _Things that worked, things that didn't. Update after significant events._
 
+- **Mission Control DNS Resolution Fix (2026-03-08):** When Docker container DNS resolution fails intermittently (especially during container restarts), use IP address fallback. Mission Control resolves to 172.18.0.3 in Docker network. Updated Team Progress Sync cron to use `http://172.18.0.3:4000` as fallback. (SO-4: Operational Excellence)
+- **Browser Service Diagnosis (2026-03-08):** LinkedIn tracking and `browser` tool failures share same root cause: OpenClaw browser control service not running. Browser config is enabled but service timed out. Requires gateway restart. (SO-4: Operational Excellence)
 - **Mission Control Workflow Conflict (2026-03-07):** The `tpl-strict` workflow template in Mission Control overrides correct agent assignments, reassigning CoS tasks to Autensa agents (e.g., Ghostwriter → Tester Agent). Need to either: 1) Use different workflow templates for CoS tasks, or 2) Monitor and manually correct assignments. (SO-4: Operational Excellence)
 - **Delegation discipline (2026-03-07):** Research tasks should ALWAYS be delegated to Intel Analyst agent, even for direct requests (not just Mission Control tasks). Orchestrator should follow HEARTBEAT.md delegation rules consistently: research → Intel Analyst, content → Ghostwriter, data/ops → Operator.
 - **`gog` CLI syntax updated (2026-03-06):** The `gog` CLI tool's syntax in `TOOLS.md` was incorrect for `drive ls` and `drive download`. The documentation was corrected after discovering the correct syntax via `--help`. Positional arguments are used for file IDs instead of flags.
