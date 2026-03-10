@@ -1,6 +1,9 @@
 # MEMORY.md — Active Context
 
-## Last Updated: 2026-03-10T17:04:00+05:30
+## Last Updated: 2026-03-10T17:42:00+05:30
+
+## LinkedIn Post Draft Created
+- **2026-03-10:** Drafted LinkedIn post announcing Tatvic's new AI-powered marketing automation capabilities in Khilav's voice (The Reality-Check Visionary). Post includes strong hook, practical benefits, ridiculous analogy (GPS comparison), and clear CTA for demos. Staged in Google Drive drafts folder for Khilav review: https://drive.google.com/file/d/1-QXKbXcGjegdx1xue-pNRWpb4nqc65El/view?usp=drivesdk (SO-1: Product & AI Transformation)
 
 ## Client Intel Research Completed
 ## Daily Briefing Delivered
@@ -13,6 +16,8 @@
 - **2026-03-10 11:23 AM IST:** Routine heartbeat check. Status: No new CEO messages, Openclaw demo meeting in progress (4:00-5:00 PM IST), no new files in Drive inbox, no unassigned tasks in Mission Control. Google Chat bot RCA completed - inbound flow issue identified (audience configuration warning). (SO-4: Operational Excellence)
 - **2026-03-10 11:53 AM IST:** Routine heartbeat check. Status: No new CEO messages, Openclaw demo meeting ended (4:00-5:00 PM IST), no new files in Drive inbox, no unassigned tasks in Mission Control. Next meeting: Openclaw Demo Dummy @ 7:30 PM IST. (SO-4: Operational Excellence)
 - **2026-03-10 12:23 PM IST:** Routine heartbeat check. Status: No new CEO messages, no meetings in next 2 hours (next meeting: Openclaw Demo Dummy @ 7:30 PM IST), no new files in Drive inbox, no unassigned tasks in Mission Control. Google Chat bot confirmed working in app after configuration fix. (SO-4: Operational Excellence)
+- **2026-03-10 5:12 PM IST:** Heartbeat check. Status: No new CEO messages, no meetings in next 2 hours (next meeting: Openclaw Demo Dummy @ 7:30 PM IST), no new files in Drive inbox. Mission Control check: 4 tasks stuck in `in_progress` state (3 test artifacts from earlier automation testing, 1 active Intel Analyst test). System operational with Mission Control auto-update capability verified. (SO-4: Operational Excellence)
+- **2026-03-10 5:42 PM IST:** Heartbeat check. Status: No new CEO messages detected via heartbeat (but Google Chat message at 17:27 UTC bypassed Orchestrator), no meetings in next 2 hours (next meeting: Openclaw Demo Dummy @ 7:30 PM IST), no new files in Drive inbox. Mission Control check: 3 test tasks stuck in `in_progress` for over 1 hour (need cleanup). **CRITICAL ISSUE:** Google Chat messages bypassing Orchestrator architecture - direct agent responses without Mission Control integration. (SO-4: Operational Excellence)
 
 ## Active Projects
 
@@ -91,6 +96,22 @@ _Items waiting for CEO sign-off. Clear these in Daily Briefing §1._
 ## Key Context
 
 _Important context that persists across sessions. This is the recovery point if the VM crashes._
+
+### Mission Control Auto-Update System Implemented (2026-03-10)
+- **✅ Orchestrator IDENTITY.md updated** - Mission Control task creation mandatory before all delegations
+- **✅ Ghostwriter SOUL.md updated** - Auto-update rules with exact `curl` commands for Mission Control
+- **✅ Intel Analyst SOUL.md updated** - Auto-update rules with research data formatting
+- **✅ System verified** - Ghostwriter successfully auto-updated Mission Control task `cff1fdd2...` from `in_progress` to `done`
+- **✅ Architecture validated** - Complete flow: User → Orchestrator → Mission Control → Agent → Mission Control
+- **⚠️ Test artifacts** - 3 test tasks stuck in `in_progress` state from earlier automation testing (2e325307, 85911f3a, 6e0fd8fb)
+- **🔍 Active test** - Intel Analyst task `4942907f` currently researching (expected to auto-update on completion)
+
+### Google Chat Bypass Issue Identified (2026-03-10 17:27 UTC)
+- **🚨 CRITICAL:** Google Chat messages bypassing Orchestrator architecture
+- **Evidence:** LinkedIn post request at 17:27 UTC received direct Ghostwriter response without Mission Control integration
+- **Root cause:** Google Chat bot configuration likely spawning agents directly instead of routing through Orchestrator
+- **Impact:** Violates Option 2 architecture, no Mission Control visibility, no audit trail
+- **Required fix:** Update Google Chat configuration to route all @CoS Assistant mentions through Orchestrator first
 
 ### System Configuration
 
